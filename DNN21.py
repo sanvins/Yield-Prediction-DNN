@@ -38,7 +38,7 @@ def Fc_layer(input, Cache, flag, channel_in, channel_out, Dropout, keepProb, is_
 
         Z2 = tf.transpose(Z2)
 
-
+ 
         if flag == False:
 
             A = tf.maximum(Z1, Z2)
